@@ -61,7 +61,7 @@ Todos os endpoints requerem autenticação JWT, exceto login e health check. Doc
 
 80+ rotas documentadas.
 
-![Swagger UI](assets/swagger.png)
+[Documentação da API](assets/swagger.pdf)
 
 ---
 

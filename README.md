@@ -107,6 +107,17 @@ Total:        X pontos
 Multiplicadores de premiação variam por tipo de dia (normal, feriado).
 
 ---
+---
+
+## Interface
+
+![performance-hub](https://github.com/marcelads/marcelads.github.io/blob/03032376de01f28ee03c8e47391278ddf92ef513/performance-hub.png)
+
+---
+
+![performance-hub](https://github.com/marcelads/marcelads.github.io/blob/03032376de01f28ee03c8e47391278ddf92ef513/performance-hub.svg2.png)
+
+---
 
 ## Sistema de metas
 

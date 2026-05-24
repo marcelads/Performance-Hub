@@ -28,7 +28,7 @@ Sistema legado (HTML)
     ↓
 Ingestão via API (preview + execução)
     ↓
-FastAPI (backend Clean Architecture)
+FastAPI (Arquitetura modular orientada a separação de responsabilidades)
     ↓
 MySQL (fato_contratos, fato_fechamento, logs)
     ↓
@@ -165,7 +165,7 @@ from interfaces.api.v1 import (
 
 app = FastAPI(
     title="Performance Hub API",
-    description="Backend Clean Architecture.",
+    description= Arquitetura modular orientada a separação de responsabilidades,
     version="0.2.0",
 )
 

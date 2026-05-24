@@ -171,11 +171,7 @@ app = FastAPI(
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Ajustar em produção
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+    allow_origins=settings.CORS_ORIGINS],  
 
 app.include_router(auth.router,       prefix="/api/v1/auth")
 app.include_router(rankings.router,   prefix="/api/v1/rankings")
@@ -188,7 +184,7 @@ app.include_router(usuarios.router,   prefix="/api/v1/usuarios")
 
 @app.get("/", tags=["Health"])
 def health():
-    return {"status": "ok", "version": "0.2.0", "env": "mock"}
+    return {"status": "ok", "version": "0.2.0", }
 ```
 
 ---
